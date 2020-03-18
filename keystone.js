@@ -2,7 +2,7 @@ var keystone = require('keystone');
 
 keystone.init({
   'cookie secret': 'secure string goes here',
-  'name': 'my-project',
+  'name': 'my-projects',
   'user model': 'User',
   'auto update': true,
   'auth': true,
